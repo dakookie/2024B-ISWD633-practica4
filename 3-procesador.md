@@ -1,4 +1,4 @@
-# Limitar uso de procesador
+d# Limitar uso de procesador
 Limitar la cantidad de núcleos de CPU:
 ```
 --cpus=<número de núcleos>
@@ -10,7 +10,7 @@ Asignar núcleos de CPU específicos:
 ```
 
 **¿Como saber el numero de procesadores virtuales que tiene una máquina?**
-## COMPLETAR
+En window para obtener el número de procesadores virtuales en el cmd se ejecuta el siguiente comando: wmic cpu get NumberOfLogicalProcessors
 
 ## Ejemplos
 _Puedes copiar y ejecutar directamente cada uno de los comandos_
